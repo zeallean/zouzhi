@@ -1,33 +1,23 @@
 language: node_js
-
 node_js:
-- "0.12.7"
-
+- 0.12.7
 branches:
   only:
   - master
-
 before_install:
-# Decrypt the private key
-- openssl aes-256-cbc -K $encrypted_d179d3b595b7_key -iv $encrypted_d179d3b595b7_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
-# Set the permission of the key
+- openssl aes-256-cbc -K $encrypted_1ee748c23a20_key -iv $encrypted_1ee748c23a20_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-# Start SSH agent
 - eval $(ssh-agent)
-# Add the private key to the system
 - ssh-add ~/.ssh/id_rsa
-# Copy SSH config
 - cp .travis/ssh_config ~/.ssh/config
-# Set Git config
 - git config --global user.name "zoorz"
 - git config --global user.email zoechow8@gmail.com
-
 install:
 - npm install hexo-cli -g
 - npm install hexo --save
 - npm install
-
 script:
-- hexo clean 
-- hexo generate 
+- hexo clean
+- hexo generate
 - hexo deploy
