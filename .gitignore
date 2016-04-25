@@ -2,7 +2,9 @@
 Thumbs.db
 db.json
 *.log
+_qiniu_config.yml
 node_modules/
 public/
 .deploy*/
 .ssh/
+static/

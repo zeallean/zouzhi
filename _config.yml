@@ -14,8 +14,9 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://zouzhi.net
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:category/:year-:month-:day-:title.html
 permalink_defaults:
+
 
 # Directory
 source_dir: source
@@ -46,6 +47,15 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    编程: programming
+    写作: writing
+    商业: bussiness
+    思考: thinking
+    转载: reship
+    译注: translation
+    网站设计: website-building
+    思维习惯: thinking-mode
+    其他: other
 tag_map:
 
 # Date / Time format
@@ -62,6 +72,8 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+
 ## Themes: https://hexo.io/themes/
 ##theme: landscape
 theme: next
