@@ -1,6 +1,6 @@
 # 走之网
 
-> Just Walking And You Will Reach
+> Just walking and you will eventually arrival.
 
 走之网，是我个人博客的第4次迁移后的最终想静下心来好好沉淀的地方。如同上面走之网的 slogan 一般。当下自己的状态就是“走之”。
 
