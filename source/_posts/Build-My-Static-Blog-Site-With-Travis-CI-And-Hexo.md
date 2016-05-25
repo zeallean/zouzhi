@@ -140,7 +140,7 @@ $ git push origin master
 
 好了，休息下。看个短片：《Life is Beautiful》
 
-<iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=n0165gb59wo&tiny=0&auto=0" allowfullscreen></iframe>'
+<iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=n0165gb59wo&tiny=0&auto=0" allowfullscreen></iframe>
 
 这是我个人非常喜欢的一部短片。国外拿奖无数。值得一看和玩味其中所要表达的东西。
 
