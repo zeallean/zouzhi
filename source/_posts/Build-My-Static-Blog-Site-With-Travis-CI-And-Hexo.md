@@ -6,6 +6,7 @@ tags:
  - 学习
 category: 编程
 ---
+
 本篇主要针对喜欢写写文字，但又不想受限于千篇一律的博客平台，想寻求一个没有广告，简洁纯净，可以完全按自己的方式来写作的文字爱好者。当然如果有点 geek 范，爱好编程则再好不过了。当然，如果觉得操作过于繁琐难懂，但仍想拥有一个同本站一般的博客，可以文章下面[留言](#comment)、[邮箱](mailto:zeallean5@gmail.com)或者微博[@走之派-zeal](http://weibo.com/crazybd)私信我。很乐意与各位一起探讨，并免费提供帮助（可以的话）。同时也欢迎各位加入Facebook小组-- Free Code Camp Changsha 。大家一起来自由学习编程，与全球的编程爱好者做全球性的公益项目。
 
 ## 工具简介
@@ -70,8 +71,7 @@ category: 编程
 继续！
 
 下面我想通过一张流程图来简要的介绍下静态博客搭建所用到的各个工具之间的联系！
-
-![work-flow](/images/work-flow.png)
+![work-flow](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/work-flow.png)
 
 针对流程图，搭建过程可分为三大部分。
 
@@ -95,12 +95,10 @@ $ hexo server                # 生成静态文件, 启动本地web服务器
 #### 文件托管
 
 首先需要在 Github 上创建一个 repo。
-
-![git-repo](/images/repo-create.png)
+![git-repo](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/repo-create.png)
 
 为了避免接下来的操作报错。在创建 repo 时，初始化不要添加 `README` 和 `.gitignore` 文件.
-
-![initialize](/images/repo-initialize.png)
+![initialize](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/repo-initialize.png)
 
 github 上 repo 新建好以后。回到本机，通过终端，进入刚才通过 hexo  创建好的项目目录，通过 git 进行托管。
 
@@ -121,7 +119,7 @@ $ git commit -m "Site init"
 
 提交完毕后，回到 github 上来。进入对应的 repo 页面。点击 <i class="icon-clippy"></i> 复制其对应的 repo url 地址
 
-![repo-url](/images/copy-remote-repository-url.png)
+![repo-url](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/copy-remote-repository-url.png)
 
 再次回到终端，将刚才复制的 URL 设置为当前项目资源的中心仓库地址。
 ``` bash
@@ -206,11 +204,11 @@ $ hexo generate --deploy
 
 首先登录 Travis-Ci，要求同 Github 帐号进行绑定。完成绑定，通过首页的Account 进入仓库列表，进行仓库同步和授权操作。
 
-![travis account](/images/travis-account.png)
+![travis account](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/travis-account.png)
 
 然后选择对应的项目仓库进行授权。
 
-![toggle-switch](/images/toggle-switch.png)
+![toggle-switch](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/toggle-switch.png)
 
 其实关于 Travis-ci 将要完成的工作，通过上面的简单介绍和流程图相信有一个大致了解。其实其主要的作用是将原本需要在本地完成的类似 Hexo generate，deploy 的操作，全部移交至 travis-ci 虚拟机的任务来自动处理。我们只需要在项目的目录中添加一个`.travis.yml` 文件，后面在其中配置好我们指定给 travis 要完成的任务就 OK 了。
 ``` bash
@@ -245,7 +243,7 @@ $ pbcopy < ~/.ssh/id_rsa.pub
 ```
 将公钥配置到 github 上项目的 deploy key 中。
 
-![deploy-key](/images/deploy-key.png)
+![deploy-key](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/deploy-key.png)
 
 测试连接
 ``` bash
@@ -370,7 +368,7 @@ $ git commit -m "site publish"
 
 注册好域名以后，推荐将域名采用 [DNSPOD](http://www.dnspod.cn) 进行解析。关于如何变更DNS解析。参见：[https://support.dnspod.cn/Kb/showarticle/tsid/40/](https://support.dnspod.cn/Kb/showarticle/tsid/40/)。变更成功以后，我们进入 DNSPOD 对应的域名管理页面。为其添加解析到我们的托管在 Github上的博客 CNAME 记录。
 
-![dnspod-config](/images/dnspod-cname-config.png)
+![dnspod-config](http://7xl4wx.com1.z0.glb.clouddn.com/static/images/post/dnspod-cname-config.png)
 
 可能需要5-10分钟解析生效。这期间，我们回到我们本地项目目录。进入项目`source`目录，创建一个名为`CNAME`的文件。内容设置我们的域名。
 ```txt CNAME
