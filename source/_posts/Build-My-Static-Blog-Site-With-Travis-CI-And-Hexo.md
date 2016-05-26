@@ -1,10 +1,8 @@
+---
+layout: post
 title: Travis-ci,Hexo与Github三剑合璧打造专属静态博客
 date: 2015-09-13 23:56:38
-tags: 
- - travis-ci
- - hexo
- - 学习
-category: 编程
+category: [编程]
 ---
 
 本篇主要针对喜欢写写文字，但又不想受限于千篇一律的博客平台，想寻求一个没有广告，简洁纯净，可以完全按自己的方式来写作的文字爱好者。当然如果有点 geek 范，爱好编程则再好不过了。当然，如果觉得操作过于繁琐难懂，但仍想拥有一个同本站一般的博客，可以文章下面[留言](#comment)、[邮箱](mailto:zeallean5@gmail.com)或者微博[@走之派-zeal](http://weibo.com/crazybd)私信我。很乐意与各位一起探讨，并免费提供帮助（可以的话）。同时也欢迎各位加入Facebook小组-- Free Code Camp Changsha 。大家一起来自由学习编程，与全球的编程爱好者做全球性的公益项目。
