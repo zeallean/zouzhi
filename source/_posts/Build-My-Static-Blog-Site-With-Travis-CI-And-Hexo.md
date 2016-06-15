@@ -154,7 +154,7 @@ $ git push origin master
 
 进入我们之前创建的“my site”项目，为项目创建一个名为“gh-pages”分支。
 ``` bash
-$ git branch -b gh-pages
+$ git checkout -b gh-pages
 ```
 这样就基于当前 master(默认)分支创建了一个新的分支。分支名为"gh-pages"是 Github Pages 上项目主页构建默认采用的分支（具体参照 Pages 的官方介绍）
 
