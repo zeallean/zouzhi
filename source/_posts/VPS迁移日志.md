@@ -1,5 +1,7 @@
+---
+layout: post
 title: VPS迁移日志
-tags: []
+category: [ 编程 ]
 date: 2015-08-13 17:52:07
 ---
 

@@ -1,5 +1,7 @@
+---
+layout: post
 title: How to Fix Flash Videos Having No Sounds In Google Chrome On Mac OS X
-tags: []
+tags: [ PC Problems ]
 date: 2015-08-13 02:06:03
 ---
 

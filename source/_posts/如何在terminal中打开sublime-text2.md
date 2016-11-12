@@ -1,6 +1,7 @@
+---
+layout: post
 title: 如何在terminal中打开sublime text2 ?
-tags: 
- - sublime
+tags: [sublime]
 date: 2015-08-13 17:44:38
 ---
 
